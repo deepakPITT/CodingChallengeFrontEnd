@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en-IN">
+<head>
+	<script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+	<script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+	<link rel="stylesheet" href="http://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css" />
+	<link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+	<header>
+		<div id="headerLeftSection">
+			<span style="font-size: 20px; font-weight:bold;">Position:</span>
+			<label><input class="radioButton" type="radio" name="position" value="center">Center</label>
+			<label><input class="radioButton" type="radio" name="position" value="lowerRight">Lower Right</label>
+		</div>
+		<div id="headerRightSection">
+			<span style="font-size: 18px; color: #E4BB40;">Press ESC Key to hide the Window. Enter to show it again</span>
+			<span id="clock"></span>
+		</div>		
+	</header>
+	<div style="clear: both;"></div>
+	<div id="mainSection">
+		<div id="floatableDiv" class="ui-widget-content">
+			<div id="upperText">Floating...</div>
+			<div id="lowerText">Drag me around...</div>
+		</div>
+	</div>
+	<footer>
+	</footer>
+</body>
+</html>
+
+<script src="script.js"></script>

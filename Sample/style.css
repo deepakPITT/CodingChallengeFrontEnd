@@ -1,0 +1,91 @@
+html,body
+{
+	font-size: 15px;
+	color: #fff;
+	width: auto;	
+	margin: 0;
+}
+
+body {
+	min-height: 500px;
+}
+
+header
+{
+	height: 50px;
+	background-color: black;	
+    position: fixed;
+    width: 100%;
+	z-index: 99;	
+}
+
+footer {
+	height: 50px;
+	background-color: black;	
+    position: fixed;
+    width: 100%;
+	z-index: 99;	
+	bottom: 0;
+	left: 0;
+}
+
+#headerLeftSection
+{
+	float: left;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+.radioButton
+{
+   vertical-align: text-bottom;
+}
+
+#headerRightSection
+{
+	float: right;
+	margin-top: 10px;
+	margin-right: 10px;
+}
+
+#clock
+{
+	font-size: 20px;
+}
+
+#mainSection
+{
+	background-color: #DDD;
+	position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+#floatableDiv
+{
+	height: 200px;
+	width: 300px;
+	border: 1px solid black;
+	background: #CCC;
+	position: absolute;
+    margin: 0;
+}
+
+#upperText, #lowerText {
+	padding: 10px;
+}
+
+#upperText {
+	color: black;
+}
+
+#lowerText {
+	position: absolute;
+    right: 0;
+    bottom: 0;
+	color: white;
+}
+
+* {
+    font-family: 'Calibri', sans-serif;
+}
